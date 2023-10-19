@@ -1,9 +1,9 @@
-package modul2solid;
+package lsp;
 
-class Vegetable extends Product {
+class Vegetable extends FoodProduct {
     @Override
     String getName() {
-	return "Broccoli";
+    	return "Broccoli";
     }
     @Override
     Date getExpiredDate() {

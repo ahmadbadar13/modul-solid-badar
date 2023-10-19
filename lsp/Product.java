@@ -1,8 +1,7 @@
-package modul2solid;
+package lsp;
 
 abstract class Product {
     abstract String getName();
-    abstract Date getExpiredDate();
     /**
     * Function to get all of information about product
     */
