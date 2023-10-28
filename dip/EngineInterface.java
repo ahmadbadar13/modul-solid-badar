@@ -1,6 +1,5 @@
 package dip;
 
-class EngineInterface {
-    void start() {
-    }
+interface EngineInterface {
+    void start();
 }

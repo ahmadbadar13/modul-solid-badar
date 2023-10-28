@@ -1,11 +1,13 @@
 package dip;
 
-public class Car {
+class Car {
     private final EngineInterface engine;
-    public Car(EngineInterface engine){
+
+    public Car(EngineInterface engine) {
         this.engine = engine;
     }
-    void start(){
+
+    void start() {
         engine.start();
     }
 }
